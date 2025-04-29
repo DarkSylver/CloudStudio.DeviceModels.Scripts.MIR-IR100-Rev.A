@@ -25,11 +25,9 @@ function getEndpoints(deviceAddress, endpoints)
 
      endpoints.addEndpoint("1", "Motion sensor", endpointType.iasSensor, iasEndpointSubType.presenceSensor);
         var e = endpoints.addEndpoint("2", "People Counter", endpointType.genericSensor);
-   e.variableTypeId = 1355;
+   e.variableTypeId = 1036;
      //endpoints.addEndpoint("2", "People Counter", endpointType.peopleCounter);
      
-  // endpoints.addEndpoint("1", "Temperature sensor", endpointType.temperatureSensor);
-  // endpoints.addEndpoint("2", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
 }
 
 function validateDeviceAddress(address, result)
